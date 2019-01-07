@@ -1,0 +1,36 @@
+/** 色彩 */
+
+// 主色 (使用较为安全的蓝色作为主色调，其中 Light Primary 常用于 hover，Dark Primary 常用于 active。)
+$primary-color: #2d8cf0;
+$primary-light-color: #5cadff;
+$primary-dark-color: #2b85e4;
+
+// 辅助色 (辅助色是具有代表性的颜色，常用于信息提示，比如成功、警告和失败。)
+$info-color: #2d8cf0;
+$success-color: #19be6b;
+$warning-color: #ff9900;
+$danger-color: #ed3f14;
+
+// 中性色 (中性色常用于背景、边框、阴影等，可以体现出页面的层次结构。)
+$primary-font-color: #1c2438; // 主要文字(标题)
+$standard-font-color: #495060; // 常规文字(正文)
+$secondary-font-color: #80848f; // 次要文字(辅助/图标)
+$placeholder-font-color: #c0c4cc; // 占位文字
+$background-color: #f8f8f9;
+$border-color: #dddee1;
+$disabled-color: #bbbec4;
+$divider-color: #e9eaec;
+
+
+/** 字体 */
+
+// 对字体进行统一规范，力求在各个操作系统下都有最佳展示效果。
+$font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+
+// 字体大小
+$font-size-xs: 12px; // 辅助文字
+$font-size-s: 13px; // 正文 (小)
+$font-size-m: 14px; // 正文
+$font-size-l: 16px; // 小标题
+$font-size-xl: 18px; // 标题
+$font-size-xxl: 20px; // 主标题
